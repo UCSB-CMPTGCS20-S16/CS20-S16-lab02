@@ -82,7 +82,7 @@ A new command for this lab is the `ls` command.
     current working directory.
 
 At the command prompt, type each of these commands. The part you type is
-shown after the -bash-4.2\$ prompt. (Note: Your prompt may be slightly
+shown after the `-bash-4.2$` prompt. (Note: Your prompt may be slightly
 different.)
 
     -bash-4.2$ cd
@@ -161,9 +161,9 @@ it exactly right the first time, and use the `rm` command to remove
 (delete) any files that are in the wrong place.
 
 Once you see that you have `lab03Funcs.py` and `lab03Tests.py` under your
-`\~/cs20/lab03` directory, you are good to move on to the next step.
+`~/cs20/lab03` directory, you are good to move on to the next step.
 
-Note that `\~` is a symbol that means "your home directory".
+Note that `~` is a symbol that means "your home directory".
 
 Step 5: Fixing function stubs, adding functions, adding tests
 -------------------------------------------------------------
