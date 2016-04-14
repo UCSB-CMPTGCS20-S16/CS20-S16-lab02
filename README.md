@@ -94,6 +94,7 @@ right of your Python Shell window.
 
 Now, open the following link: [lab03Funcs.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Funcs.py)
 * You may want to "right click", or on Mac, "control-click", to open it in a new window or tab
+* Here is a the same file with formatting and line numbers:  [lab03Funcs.py](https://github.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/blob/master/lab03Funcs.py)
 
 Copy and paste this code into a new Python file with the name `lab03Funcs.py` and save it&mdash;we'd suggest storing this in the cs20/lab03 folder you created at an earlier step.
 
@@ -114,6 +115,7 @@ Now, open this web link. (You may want to "right click", or on Mac,
 "control-click", to open it in a new window or tab.)
 
 Now, open the following link: [lab03Tests.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Tests.py)
+* Here is a the same file with formatting and line numbers:  [lab03Tests.py](https://github.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/blob/master/lab03Tests.py)
 
 Copy and paste this code into a new Python file with the name `lab03Tests.py` and save it&mdash;in the same folder as the lab03Funcs.py file from earlier.
 
