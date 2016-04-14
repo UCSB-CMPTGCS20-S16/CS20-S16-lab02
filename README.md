@@ -9,72 +9,42 @@ Writing functions and tests
 In this lab, we'll build on what we started in lab01---writing functions
 and tests.
 
--   You may work individually, OR in a pair.
--   If you work in a pair:
-    -   it may be the same pair as for lab02, OR
-    -   a different pair, but both pair members MUST be in the
-        lab section.
+- You may work individually, OR in a pair.
+- If you work in a pair, please "register" as a pair on submit.cs so that your submission there is recorded for both students. 
 
 Step by Step
 ============
 
-Step 0: Register as either working alone, or working in a pair
---------------------------------------------------------------
 
-On Gauchospace, there is a forum where you can register either that you
-are working individually, or working in a pair:
+Step 1: Bring up an IDLE session
+--------------------------------
 
-<https://gauchospace.ucsb.edu/courses/mod/forum/view.php?id=160487>
+Bring up an IDLE session.
 
-Please register there, following these instructions:
+Though it isn't required, it is encouraged that you do this lab on your CSIL account to learn a bit about working with Linux.
 
--   In the "Subject", put either:
-    -   SOLO then your CSIL Userid (e.g. SOLO ggaucho)
-    -   PAIR then both CSIL Userids (e.g. PAIR ggaucho,mperez07)
+If you do this on CSIL account, you may way to bring up two terminal windows where you are connecting to CSIL.
 
-<!-- -->
-
--   In the "Message": put
-    -   your real name(s)
-    -   if working in a pair, two times that you can get together later
-        to work on the lab outside of class.
-
-Then proceed with the lab.
-
-Step 1: Bringing up two terminal windows, and an idle3 session
---------------------------------------------------------------
-
-<div style="width: 100px; float: right; padding:1em; border:1px solid black;">
-![](Terminal.png "Terminal.png")
-
-The terminal icon
-
-</div>
-As in lab01, bring up two terminal windows.
-
--   In one of them, type idle3 to bring up the IDLE
+-   In one of them, type idle to bring up the IDLE
     development environment.
     -   In that window, you won't get a bash prompt back until you exit
-        from idle3, so that window isn't really of much use to you after
-        type idle3.
+        from idle, so that window isn't really of much use to you after
+        type idle.    (Or, you can use `idle &` to start idle, and get back your prompt.)
     -   Don't close it though, because if you do, IDLE might crash too.
         You can minimize it though, or drag it out of the way.
 -   Keep the other terminal window handy, so you'll have the bash shell
     prompt at your fingertips. That will give you a place to do file
     commands as needed.
 
-NOTE: Be sure you get "Terminal" and NOT "CuteCom". They both have the
-same icon, but they don't do the same thing. CuteCom is of no use to us
-in this course (its for communicating with serial devices, like 1980s
-modems.)
 
 Step 2: Creating some directories
 ---------------------------------
 
+
 In the window with the bash shell prompt (`-bash-4.2$`), we will type
 some commands to create a directory (folder) for lab03.
 
-As a reminder of some basics of Linux shell commands:
+Here are some basics of Linux shell commands:
 
 -   cd is the "change directory" command
 -   mkdir is the "make directory" command
