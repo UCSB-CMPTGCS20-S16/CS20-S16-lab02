@@ -11,7 +11,7 @@ import unittest
 def runTestsWithPrefix(testFile,prefix):
     """
     run only tests from testFile with a certain prefix
-    Example: runTestsWithPrefix("lab03Tests.py","test_isPrimaryColor")
+    Example: runTestsWithPrefix("lab02Tests.py","test_isPrimaryColor")
     """
     loader = unittest.TestLoader()
     loader.testMethodPrefix = prefix
@@ -21,5 +21,5 @@ def runTestsWithPrefix(testFile,prefix):
 if __name__ == "__main__":
 
     # Change the parameters to runTestsWithPrefix as needed
-    runTestsWithPrefix("lab03Tests.py","test_isSimpleNumeric")
+    runTestsWithPrefix("lab02Tests.py","test_isSimpleNumeric")
 
