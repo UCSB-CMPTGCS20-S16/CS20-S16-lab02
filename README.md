@@ -28,9 +28,9 @@ As a reminder, for working on CSIL, you need:
 
 Though the "default" machine name is `csil.cs.ucsb.edu`, it is strongly recommended to choose one of the other machines on that list, especially if you are bringing up IDLE. (It's less important if you are just doing Linux shell commands, or working at the Python `>>>` prompt.)
 
-As for how to connect:
+As for how to connect, assuming `jgaucho` is your CSIL/ECI username:
 
-* From Windows, it is recommended that you use the free home edition of [Mobaxterm](http://mobaxterm.mobatek.net/download-home-edition.html) to create an SSH session.
+* From Windows, it is recommended that you use the free home edition of [Mobaxterm](http://mobaxterm.mobatek.net/download-home-edition.html) to create an SSH session.  Enter the machine name and username in places indicated.   For the "port number", leave the default (22) just as it is.
 * From Mac OS, : use `ssh -X jgaucho@somemachine.cs.ucsb.edu` where `somemachine` is a machine from [the list of CSIL machines](http://www.engr.ucsb.edu/eci/kb/index.php?action=artikel&cat=14&id=68).  You may need to [download and install XQuartz](http://www.xquartz.org/) first to get the graphics to work. 
 * From Linux, it "just works": use `ssh -X jgaucho@somemachine.cs.ucsb.edu` where `somemachine` is a machine from [the list of CSIL machines](http://www.engr.ucsb.edu/eci/kb/index.php?action=artikel&cat=14&id=68)
 
