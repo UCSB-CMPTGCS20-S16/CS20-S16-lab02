@@ -83,7 +83,7 @@ different.)
     /cs/student/yourusername/cs20/lab03
     -bash-4.2$
 
-Step 3: Copy some code into [lab03Funcs.py](http://www.cs.ucsb.edu/~pconrad/cs20/14S/labs/lab03/lab03Funcs.py) under your cs20/lab03 folder
+Step 3: Copy some code into [lab03Funcs.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Funcs.py) under your cs20/lab03 folder
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 In IDLE, select "File=&gt;New Window" to open a new "untitled" window
@@ -92,15 +92,12 @@ for Python code.
 When it comes up, click and drag the window by its title bar over to the
 right of your Python Shell window.
 
-Now, open this link. (You may want to "right click", or on Mac,
-"control-click", to open it in a new window or tab.)
+Now, open the following link: [lab03Funcs.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Funcs.py)
+* You may want to "right click", or on Mac, "control-click", to open it in a new window or tab
 
-<http://www.cs.ucsb.edu/~pconrad/cs20/14S/labs/lab03/lab03Funcs.py>
+Copy and paste this code into a new Python file with the name `lab03Funcs.py` and save it&mdash;we'd suggest storing this in the cs20/lab03 folder you created at an earlier step.
 
-Use the "Save As" option to save that file in the cs20/lab03 folder with
-the name `lab03Funcs.py`
-
-Step 4: Copy some more code into [lab03Tests.py](http://www.cs.ucsb.edu/~pconrad/cs20/14S/labs/lab03/lab03Tests.py) under your cs20/lab03 folder
+Step 4: Copy some more code into [lab03Tests.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Tests.py) under your cs20/lab03 folder
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 Now we are going to do the same thing again, with a second file of
@@ -116,10 +113,9 @@ easily by clicking.
 Now, open this web link. (You may want to "right click", or on Mac,
 "control-click", to open it in a new window or tab.)
 
-<http://www.cs.ucsb.edu/~pconrad/cs20/14S/labs/lab03/lab03Tests.py>
+Now, open the following link: [lab03Tests.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Tests.py)
 
-Use the "Save As" option to save that file in the cs20/lab03 folder with
-the name `lab03Tests.py`
+
 
 After saving this file, go to your bash shell prompt window, and type
 `pwd` to make sure you are still in your cs20/lab03 directory under your
