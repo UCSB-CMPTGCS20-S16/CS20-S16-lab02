@@ -101,7 +101,7 @@ different.)
     /cs/student/yourusername/cs20/lab03
     -bash-4.2$
 
-Step 3: Copy some code into [lab03Funcs.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Funcs.py) under your cs20/lab03 folder
+Step 3: Copy some code from [lab03Funcs.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Funcs.py) 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 In IDLE, select "File=&gt;New Window" to open a new "untitled" window
@@ -116,7 +116,7 @@ Now, open the following link: [lab03Funcs.py](https://raw.githubusercontent.com/
 
 Copy and paste this code into a new Python file with the name `lab03Funcs.py` and save it&mdash;we'd suggest storing this in the cs20/lab03 folder you created at an earlier step.
 
-Step 4: Copy some more code into [lab03Tests.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Tests.py) under your cs20/lab03 folder
+Step 4: Copy some more code from [lab03Tests.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Tests.py)
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 Now we are going to do the same thing again, with a second file of
