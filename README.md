@@ -177,23 +177,23 @@ bogus, that the tests work correctly.
 If you look through the lab03Funcs.py file, you will see several
 function definitions that are "stub" versions.
 
-Run the lab03Tests.py file, and you'll see that many of the tests are
-failing, because the function in question returns the string "stub"
+Run the `lab03Tests.py` file, and you'll see that many of the tests are
+failing, because the function in question returns the string `"stub"` or a weird value such as `-999.99`
 instead of the answer that it should.
 
 Go through the file, and replace the stubs with correct values.
 
 In addition, you'll also find:
 
--   several places in `lab03Funcs.py` where there are comments with "@@@"
+-   several places in `lab03Funcs.py` where there are comments with `@@@`
     signs that tell you to add new function definitions.
--   several places in `lab03Tests.p`y where there are comments with "@@@"
+-   several places in `lab03Tests.py` where there are comments with `@@@`
     signs that tell you to add new test cases
 
 Follow all of the instructions.
 
--   As you follow the instructions with the @@@ in them, it is good practice to REMOVE THE
-    COMMENTS THAT HAVE THE @@@ IN THEM.
+-   As you follow the instructions with the `@@@` in them, it is good practice to REMOVE the
+    comments with `@@@`.  They are only there as placeholders and reminders, and don't belong in the final product.
 
 You can always look back at the versions of the files on the web if you
 want to see what the instructions originally said.
