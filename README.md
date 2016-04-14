@@ -232,4 +232,18 @@ focussing on. Remember to start the second parameter with `test_`, such as
 Step 6: Submit your assignment using the submit.cs program
 ----------------------------------------------------------
 
-TODO: Add submit.cs link here.
+The submit.cs link for this assignment is here: https://submit.cs.ucsb.edu/form/project/467/submission
+
+When your submission is "green", you are done!
+
+Note for students working in a pair
+-----------------------------------
+
+If you are working in a pair, you can register your pair on submit.cs so that any submissions that either you, or your partner make will be visible to each other, in addition to all future submissions for that assignment. 
+
+When you visit the project page&mdash;the one where you can view all your submissions&mdash;you should see a link to a page where you can join a group.   Of the two people in the group, one of you must invite the other, and the other must confirm the invitation. 
+
+I wish I could give you more specific instructions about how the "pairing up" works, but I don't have the ability to "see" submit.cs the way a student does.  So I hope it is self-explanatory. If someone would be so kind as to make some screenshots along with a description of the process and send it to me, I can make this part more clear for future students.
+
+
+
