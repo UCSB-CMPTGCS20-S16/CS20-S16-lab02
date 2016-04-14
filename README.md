@@ -60,7 +60,7 @@ Step 2: Creating some directories
 ---------------------------------
 
 In the window with the bash shell prompt (`-bash-4.2$`), we will type
-some commands to create a directory (folder) for lab03.
+some commands to create a directory (folder) for lab02.
 
 Here are some basics of Linux shell commands:
 
@@ -92,15 +92,15 @@ different.)
     /cs/student/yourusername/cs20
     -bash-4.2$ ls
     lab00
-    -bash-4.2$ mkdir lab03
+    -bash-4.2$ mkdir lab02
     -bash-4.2$ ls
-    lab00    lab03
-    -bash-4.2$ cd lab03
+    lab00    lab02
+    -bash-4.2$ cd lab02
     -bash-4.2$ pwd
-    /cs/student/yourusername/cs20/lab03
+    /cs/student/yourusername/cs20/lab02
     -bash-4.2$
 
-Step 3: Copy some code from [lab03Funcs.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Funcs.py) 
+Step 3: Copy some code from [lab02Funcs.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab02Funcs.py) 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 In IDLE, select "File=&gt;New Window" to open a new "untitled" window
@@ -109,13 +109,13 @@ for Python code.
 When it comes up, click and drag the window by its title bar over to the
 right of your Python Shell window.
 
-Now, open the following link: [lab03Funcs.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Funcs.py)
+Now, open the following link: [lab02Funcs.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab02Funcs.py)
 * You may want to "right click", or on Mac, "control-click", to open it in a new window or tab
-* Here is a the same file with formatting and line numbers:  [lab03Funcs.py](https://github.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/blob/master/lab03Funcs.py)
+* Here is a the same file with formatting and line numbers:  [lab02Funcs.py](https://github.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/blob/master/lab02Funcs.py)
 
-Copy and paste this code into a new Python file with the name `lab03Funcs.py` and save it&mdash;we'd suggest storing this in the cs20/lab03 folder you created at an earlier step.
+Copy and paste this code into a new Python file with the name `lab02Funcs.py` and save it&mdash;we'd suggest storing this in the cs20/lab02 folder you created at an earlier step.
 
-Step 4: Copy some more code from [lab03Tests.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Tests.py)
+Step 4: Copy some more code from [lab02Tests.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab02Tests.py)
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 Now we are going to do the same thing again, with a second file of
@@ -125,42 +125,42 @@ In IDLE, select "File=&gt;New Window" *again* to open *yet another* new
 "untitled" window for Python code.
 
 When it comes up, click and drag the window some place so that you can
-get to it, your lab03Funcs.py window, and to your Python Shell window
+get to it, your lab02Funcs.py window, and to your Python Shell window
 easily by clicking.
 
 Now, open this web link. (You may want to "right click", or on Mac,
 "control-click", to open it in a new window or tab.)
 
-Now, open the following link: [lab03Tests.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Tests.py)
-* Here is a the same file with formatting and line numbers:  [lab03Tests.py](https://github.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/blob/master/lab03Tests.py)
+Now, open the following link: [lab02Tests.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab02Tests.py)
+* Here is a the same file with formatting and line numbers:  [lab02Tests.py](https://github.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/blob/master/lab02Tests.py)
 
-Copy and paste this code into a new Python file with the name `lab03Tests.py` and save it&mdash;in the same folder as the lab03Funcs.py file from earlier.
+Copy and paste this code into a new Python file with the name `lab02Tests.py` and save it&mdash;in the same folder as the lab02Funcs.py file from earlier.
 
 If you are working on CSIL, after saving these two  files, go to your bash shell prompt window, and type
 `pwd` to make sure you are still in your `cs20/lab0`3 directory under your
-home directory. If not, then use `cd` `~/cs20/lab03` to get into that
+home directory. If not, then use `cd` `~/cs20/lab02` to get into that
 directory.
 
     -bash-4.2$ pwd
-    /cs/student/yourusername/cs20/lab03
+    /cs/student/yourusername/cs20/lab02
     -bash-4.2$
 
 Then use the `ls` to list files. You should see a result like this:
 
     -bash-4.2$ ls
-    lab03Funcs.py      lab03Tests.py
+    lab02Funcs.py      lab02Tests.py
     -bash-4.2$
 
 If you don't, then you did something wrong. Try saving the file again,
-and make sure you navigate to the `cs20` folder, then the lab03 folder, and
-save the file under the name `lab03Tests.py`.
+and make sure you navigate to the `cs20` folder, then the lab02 folder, and
+save the file under the name `lab02Tests.py`.
 
 As before, upper vs. lower case matter. Save it again if you didn't get
 it exactly right the first time, and use the `rm` command to remove
 (delete) any files that are in the wrong place.
 
-Once you see that you have `lab03Funcs.py` and `lab03Tests.py` under your
-`~/cs20/lab03` directory, you are good to move on to the next step.
+Once you see that you have `lab02Funcs.py` and `lab02Tests.py` under your
+`~/cs20/lab02` directory, you are good to move on to the next step.
 
 Note that `~` is a symbol that means "your home directory".
 
@@ -173,10 +173,10 @@ cases, we often start with "stub" versions.
 These allow us to "test the test" to make sure that when the function is
 bogus, that the tests work correctly.
 
-If you look through the lab03Funcs.py file, you will see several
+If you look through the lab02Funcs.py file, you will see several
 function definitions that are "stub" versions.
 
-Run the `lab03Tests.py` file, and you'll see that many of the tests are
+Run the `lab02Tests.py` file, and you'll see that many of the tests are
 failing, because the function in question returns the string `"stub"` or a weird value such as `-999.99`
 instead of the answer that it should.
 
@@ -184,9 +184,9 @@ Go through the file, and replace the stubs with correct values.
 
 In addition, you'll also find:
 
--   several places in `lab03Funcs.py` where there are comments with `@@@`
+-   several places in `lab02Funcs.py` where there are comments with `@@@`
     signs that tell you to add new function definitions.
--   several places in `lab03Tests.py` where there are comments with `@@@`
+-   several places in `lab02Tests.py` where there are comments with `@@@`
     signs that tell you to add new test cases
 
 Follow all of the instructions.
@@ -223,7 +223,7 @@ into that file, and choose Run-&gt;Run Module (or press F5).
 You should see that it runs ONLY the tests that pertain to the function
 `isSimpleNumeric`. That's because the function call at the bottom of the
 file, the one that is called when the file is run, specifies to only run
-tests from `lab03Tests.py` that start with `test_isSimpleNumeric`
+tests from `lab02Tests.py` that start with `test_isSimpleNumeric`
 
 You can edit the last line of this file to be whatever function you are
 focussing on. Remember to start the second parameter with `test_`, such as

@@ -1,15 +1,15 @@
-# lab03Tests.py    Tests for lab03, UCSB CS8, P. Conrad, 04/14/2014
+# lab02Tests.py    Tests for lab02, UCSB CS8, P. Conrad, 04/14/2014
 
 import unittest                   # this is so we can set up testing of functions
 
 # the imports below import the functions we want to test
 
-from lab03Funcs import perimRect
-from lab03Funcs import isList
-from lab03Funcs import isAdditivePrimaryColor
-from lab03Funcs import isSimpleNumeric
+from lab02Funcs import perimRect
+from lab02Funcs import isList
+from lab02Funcs import isAdditivePrimaryColor
+from lab02Funcs import isSimpleNumeric
 
-class TestLab03Functions(unittest.TestCase):   # This is how you do testing in Python
+class TestLab02Functions(unittest.TestCase):   # This is how you do testing in Python
 
     # Every test case should be a function definition
     # The name should start with test_ and the parameter should be "self".

@@ -1,4 +1,4 @@
-# lab03Funcs.py     Define a few sample functions in Python
+# lab02Funcs.py     Define a few sample functions in Python
 # P. Conrad for CMPTGCS 20, Spring 2016
 
 
