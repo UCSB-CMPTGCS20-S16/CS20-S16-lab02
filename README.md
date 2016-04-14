@@ -10,7 +10,7 @@ In this lab, we'll build on what we started in lab01---writing functions
 and tests.
 
 - You may work individually, OR in a pair.
-- If you work in a pair, please "register" as a pair on submit.cs so that your submission there is recorded for both students. 
+- If you work in a pair, please "register" as a pair on submit.cs so that your submission there is recorded for both students (instructions on how to do that will be explained later in this lab.)
 
 Step by Step
 ============
