@@ -211,7 +211,8 @@ Then you are ready to submit!
 When you have a LOT of tests, it can get confusing. It may be more
 convenient to focus on one function at a time.
 
-Here is a link to a file that can do that: [testHelper.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/testHelper.py)
+Here is a link to a file that can do that: 
+* plain version for copying/pasting: [testHelper.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/testHelper.py)
 * Formatted version with line numbers: [testHelper.py](https://github.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/blob/master/testHelper.py)
 
 To use it, select the File-&gt;New option in idle, and create a new
