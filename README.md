@@ -212,20 +212,21 @@ When you have a LOT of tests, it can get confusing. It may be more
 convenient to focus on one function at a time.
 
 Here is a link to a file that can do that: [testHelper.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/testHelper.py)
+* Formatted version with line numbers: [testHelper.py](https://github.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/blob/master/testHelper.py)
 
 To use it, select the File-&gt;New option in idle, and create a new
 blank Python file. Copy the code from
-[testHelper.py](http://www.cs.ucsb.edu/~pconrad/cs20/14S/labs/lab03/testHelper.py)
+[testHelper.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/testHelper.py)
 into that file, and choose Run-&gt;Run Module (or press F5).
 
 You should see that it runs ONLY the tests that pertain to the function
 `isSimpleNumeric`. That's because the function call at the bottom of the
 file, the one that is called when the file is run, specifies to only run
-tests from `lab03Tests.py` that start with `test\_isSimpleNumeric`
+tests from `lab03Tests.py` that start with `test_isSimpleNumeric`
 
 You can edit the last line of this file to be whatever function you are
-focussing on. Remember to start the second parameter with `test\_`, such as
-`test\_isSimpleNumeric`, `test\_isPrimaryColor`
+focussing on. Remember to start the second parameter with `test_`, such as
+`test_isSimpleNumeric`, `test_isPrimaryColor`
 
 Step 6: Submit your assignment using the submit.cs program
 ----------------------------------------------------------
