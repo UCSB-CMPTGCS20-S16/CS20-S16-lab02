@@ -115,10 +115,10 @@ Now, open this web link. (You may want to "right click", or on Mac,
 
 Now, open the following link: [lab03Tests.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/lab03Tests.py)
 
+Copy and paste this code into a new Python file with the name `lab03Tests.py` and save it&mdash;in the same folder as the lab03Funcs.py file from earlier.
 
-
-After saving this file, go to your bash shell prompt window, and type
-`pwd` to make sure you are still in your cs20/lab03 directory under your
+If you are working on CSIL, after saving these two  files, go to your bash shell prompt window, and type
+`pwd` to make sure you are still in your `cs20/lab0`3 directory under your
 home directory. If not, then use `cd` `~/cs20/lab03` to get into that
 directory.
 
@@ -133,17 +133,17 @@ Then use the `ls` to list files. You should see a result like this:
     -bash-4.2$
 
 If you don't, then you did something wrong. Try saving the file again,
-and make sure you navigate to the cs20 folder, then the lab03 folder, and
-save the file under the name lab03Tests.py.
+and make sure you navigate to the `cs20` folder, then the lab03 folder, and
+save the file under the name `lab03Tests.py`.
 
 As before, upper vs. lower case matter. Save it again if you didn't get
 it exactly right the first time, and use the `rm` command to remove
 (delete) any files that are in the wrong place.
 
-Once you see that you have lab03Funcs.py and lab03Tests.py under your
-\~/cs20/lab03 directory, you are good to move on to the next step.
+Once you see that you have `lab03Funcs.py` and `lab03Tests.py` under your
+`\~/cs20/lab03` directory, you are good to move on to the next step.
 
-Note that \~ is a symbol that means "your home directory".
+Note that `\~` is a symbol that means "your home directory".
 
 Step 5: Fixing function stubs, adding functions, adding tests
 -------------------------------------------------------------
@@ -165,21 +165,19 @@ Go through the file, and replace the stubs with correct values.
 
 In addition, you'll also find:
 
--   several places in lab03Funcs.py where there are comments with "@@@"
+-   several places in `lab03Funcs.py` where there are comments with "@@@"
     signs that tell you to add new function definitions.
--   several places in lab03Tests.py where there are comments with "@@@"
+-   several places in `lab03Tests.p`y where there are comments with "@@@"
     signs that tell you to add new test cases
 
 Follow all of the instructions.
 
--   As you follow the instructions with the @@@ in them, REMOVE THE
+-   As you follow the instructions with the @@@ in them, it is good practice to REMOVE THE
     COMMENTS THAT HAVE THE @@@ IN THEM.
 
 You can always look back at the versions of the files on the web if you
 want to see what the instructions originally said.
 
-If you leave any of the @@@ comments in the file, points may be
-deducted.
 
 When you have:
 
@@ -194,137 +192,23 @@ Then you are ready to submit!
 When you have a LOT of tests, it can get confusing. It may be more
 convenient to focus on one function at a time.
 
-Here is a file that can do that:
-
-<http://www.cs.ucsb.edu/~pconrad/cs20/14S/labs/lab03/testHelper.py>
+Here is a link to a file that can do that: [testHelper.py](https://raw.githubusercontent.com/UCSB-CMPTGCS20-S16/CS20-S16-lab02/master/testHelper.py)
 
 To use it, select the File-&gt;New option in idle, and create a new
 blank Python file. Copy the code from
 [testHelper.py](http://www.cs.ucsb.edu/~pconrad/cs20/14S/labs/lab03/testHelper.py)
-into that file, and choose Run-&gt;Run Module (or press F5.
+into that file, and choose Run-&gt;Run Module (or press F5).
 
 You should see that it runs ONLY the tests that pertain to the function
-"isSimpleNumeric". That's because the function call at the bottom of the
+`isSimpleNumeric`. That's because the function call at the bottom of the
 file, the one that is called when the file is run, specifies to only run
-tests from lab03Tests.py that start with test\_isSimpleNumeric
+tests from `lab03Tests.py` that start with `test\_isSimpleNumeric`
 
 You can edit the last line of this file to be whatever function you are
-focussing on. Remember to start the second parameter with test\_, like
-test\_isSimpleNumeric, test\_isPrimaryColor
+focussing on. Remember to start the second parameter with `test\_`, such as
+`test\_isSimpleNumeric`, `test\_isPrimaryColor`
 
-Step 6: Getting ready to submit
--------------------------------
-
-We are just about ready to submit your work for grading.
-
-But first, some important preparation steps:
-
-### Step 6a: Add your name(s), section, email to the top of the file
-
-This step is worth 10 points (10% of your grade) so don't forget it.
-
-At the top of BOTH the lab03Funcs.py file, and the lab03Tests.py file,
-add the following lines of code. They should be at the VERY top, the
-VERY first lines.
-
-But, change the name here to YOUR name, the lab section to YOUR lab
-section, and the email to YOUR email (use your umail address, not a
-gmail, yahoo or hotmail address.)
-
-Add the word SOLO or PAIR, and if working in a pair, put both names (one
-per line)
-
-    # lab03Funcs.py  SOLO, Gina Gaucho, 8am lab, ggaucho@umail.ucsb.edu
-
-    # lab03Tests.py  SOLO, Gina Gaucho, 8am lab, ggaucho@umail.ucsb.edu
-
-OR:
-
-    # lab03Funcs.py  PAIR, Gordon Gaucho, 8am lab, ggaucho@umail.ucsb.edu
-    # lab03Funcs.py  PAIR, Martin Perez, 8am lab, mperez07@umail.ucsb.edu
-
-    # lab03Tests.py  PAIR, Gordon Gaucho, 8am lab, ggaucho@umail.ucsb.edu
-    # lab03Tests.py  PAIR, Martin Perez, 8am lab, mperez07@umail.ucsb.edu
-
-### Step 6b: Check your lab against the grading rubric
-
-To maximize your grade, it is good to check your OWN lab against the
-SAME criteria the TA and instructor will use to grade it—BEFORE you
-submit it!
-
-Open these lab instructions in a second browser window. Scroll down to
-the bottom of the lab, to the grading section.
-
-Find the list of grading criteria. Check your own work against each of
-those.
-
-If there are any parts that don't make sense to you, be sure to ask the
-TA/Instructor about those.
-
-If you see that you've done everything correctly, then you are ready to
-submit.
-
-Step 7: Submit your assignment using the submit.cs program
+Step 6: Submit your assignment using the submit.cs program
 ----------------------------------------------------------
 
-Before you submit, check that you have all of the following:
-
-To submit your assignment, you need to bring up a terminal window,
-exactly the same way that we brought up a terminal window earlier. If
-you already have one open, you may use that one.
-
-Next, we use the cd command that we practiced earlier:
-
-    -bash-4.2$ cd
-    -bash-4.2$ pwd
-    /cs/student/yourusername
-    -bash-4.2$ cd cs20
-    -bash-4.2$ pwd
-    /cs/student/yourusername/cs20
-    -bash-4.2$
-
-When you are in inside your cs20 directory, you are ready for the turnin
-step.
-
-TODO: Change turnin to submit.cs!!!!
-
-Type the following at the prompt:
-
-    turnin lab03@cs20y lab03
-
-You should be asked if you want to turn in this program. Respond "yes",
-and then you should get a message indicating that your efforts were
-successful!
-
-<hr>
-Evaluation and Grading
-======================
-
--   lab03 directory submitted (10 pts)
--   lab03 directory contains lab03Funcs.py (10 pts)
--   lab03 directory contains lab03Tests.py (10 pts)
--   In lab03Funcs.py:
-    -   name(s) at top (10 pts)
-    -   stub for perimRect replaced by correct code (20 pts)
-    -   stub for FtoC replaced by correct code (20 pts)
-    -   stub for areaRect replaced by correct code (20 pts)
-    -   stub for isString replaced by correct code (20 pts)
-    -   stub for isSimpleNumeric replaced by correct code (20 pts)
-    -   all @@@ comments removed (10 pts)
-
-<!-- -->
-
--   In lab03Tests.py:
-    -   name(s) at top (10 pts)
-    -   three test cases for areaRect added by student (30 pts)
-    -   three test cases for CtoF added by student (30 pts)
-    -   four test cases for isString added by student (40 pts)
-    -   all @@@ comments removed (10 pts)
-
-<!-- -->
-
--   General (30 pts)
-    -   following instructions
-    -   submitting work on time
-    -   registering your pair or solo on Gauchospace
-    -   anything else specified in the instructions
+TODO: Add submit.cs link here.
