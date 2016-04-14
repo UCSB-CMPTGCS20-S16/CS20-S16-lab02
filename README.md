@@ -53,9 +53,9 @@ Here are some basics of Linux shell commands:
     <strong>/cs/student/jsmith</strong> or
     <strong>/engr/student/mdiaz</strong>
     </li>
--   Under that, you might have a directory cs8—that would show up as
-    <strong>/cs/student/jsmith/cs8</strong>, or
-    <strong>/engr/student/mdiaz/cs8</strong>
+-   Under that, you might have a directory cs20—that would show up as
+    <strong>/cs/student/jsmith/cs20</strong>, or
+    <strong>/engr/student/mdiaz/cs20</strong>
 
 A new command for this lab is the `ls` command.
 
@@ -70,9 +70,9 @@ different.)
     -bash-4.2$ cd
     -bash-4.2$ pwd
     /cs/student/yourusername
-    -bash-4.2$ cd cs8
+    -bash-4.2$ cd cs20
     -bash-4.2$ pwd
-    /cs/student/yourusername/cs8
+    /cs/student/yourusername/cs20
     -bash-4.2$ ls
     lab00
     -bash-4.2$ mkdir lab03
@@ -80,10 +80,10 @@ different.)
     lab00    lab03
     -bash-4.2$ cd lab03
     -bash-4.2$ pwd
-    /cs/student/yourusername/cs8/lab03
+    /cs/student/yourusername/cs20/lab03
     -bash-4.2$
 
-Step 3: Copy some code into [lab03Funcs.py](http://www.cs.ucsb.edu/~pconrad/cs8/14S/labs/lab03/lab03Funcs.py) under your cs8/lab03 folder
+Step 3: Copy some code into [lab03Funcs.py](http://www.cs.ucsb.edu/~pconrad/cs20/14S/labs/lab03/lab03Funcs.py) under your cs20/lab03 folder
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 In IDLE, select "File=&gt;New Window" to open a new "untitled" window
@@ -95,12 +95,12 @@ right of your Python Shell window.
 Now, open this link. (You may want to "right click", or on Mac,
 "control-click", to open it in a new window or tab.)
 
-<http://www.cs.ucsb.edu/~pconrad/cs8/14S/labs/lab03/lab03Funcs.py>
+<http://www.cs.ucsb.edu/~pconrad/cs20/14S/labs/lab03/lab03Funcs.py>
 
-Use the "Save As" option to save that file in the cs8/lab03 folder with
+Use the "Save As" option to save that file in the cs20/lab03 folder with
 the name `lab03Funcs.py`
 
-Step 4: Copy some more code into [lab03Tests.py](http://www.cs.ucsb.edu/~pconrad/cs8/14S/labs/lab03/lab03Tests.py) under your cs8/lab03 folder
+Step 4: Copy some more code into [lab03Tests.py](http://www.cs.ucsb.edu/~pconrad/cs20/14S/labs/lab03/lab03Tests.py) under your cs20/lab03 folder
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 Now we are going to do the same thing again, with a second file of
@@ -116,18 +116,18 @@ easily by clicking.
 Now, open this web link. (You may want to "right click", or on Mac,
 "control-click", to open it in a new window or tab.)
 
-<http://www.cs.ucsb.edu/~pconrad/cs8/14S/labs/lab03/lab03Tests.py>
+<http://www.cs.ucsb.edu/~pconrad/cs20/14S/labs/lab03/lab03Tests.py>
 
-Use the "Save As" option to save that file in the cs8/lab03 folder with
+Use the "Save As" option to save that file in the cs20/lab03 folder with
 the name `lab03Tests.py`
 
 After saving this file, go to your bash shell prompt window, and type
-`pwd` to make sure you are still in your cs8/lab03 directory under your
-home directory. If not, then use `cd` `~/cs8/lab03` to get into that
+`pwd` to make sure you are still in your cs20/lab03 directory under your
+home directory. If not, then use `cd` `~/cs20/lab03` to get into that
 directory.
 
     -bash-4.2$ pwd
-    /cs/student/yourusername/cs8/lab03
+    /cs/student/yourusername/cs20/lab03
     -bash-4.2$
 
 Then use the `ls` to list files. You should see a result like this:
@@ -137,7 +137,7 @@ Then use the `ls` to list files. You should see a result like this:
     -bash-4.2$
 
 If you don't, then you did something wrong. Try saving the file again,
-and make sure you navigate to the cs8 folder, then the lab03 folder, and
+and make sure you navigate to the cs20 folder, then the lab03 folder, and
 save the file under the name lab03Tests.py.
 
 As before, upper vs. lower case matter. Save it again if you didn't get
@@ -145,7 +145,7 @@ it exactly right the first time, and use the `rm` command to remove
 (delete) any files that are in the wrong place.
 
 Once you see that you have lab03Funcs.py and lab03Tests.py under your
-\~/cs8/lab03 directory, you are good to move on to the next step.
+\~/cs20/lab03 directory, you are good to move on to the next step.
 
 Note that \~ is a symbol that means "your home directory".
 
@@ -200,11 +200,11 @@ convenient to focus on one function at a time.
 
 Here is a file that can do that:
 
-<http://www.cs.ucsb.edu/~pconrad/cs8/14S/labs/lab03/testHelper.py>
+<http://www.cs.ucsb.edu/~pconrad/cs20/14S/labs/lab03/testHelper.py>
 
 To use it, select the File-&gt;New option in idle, and create a new
 blank Python file. Copy the code from
-[testHelper.py](http://www.cs.ucsb.edu/~pconrad/cs8/14S/labs/lab03/testHelper.py)
+[testHelper.py](http://www.cs.ucsb.edu/~pconrad/cs20/14S/labs/lab03/testHelper.py)
 into that file, and choose Run-&gt;Run Module (or press F5.
 
 You should see that it runs ONLY the tests that pertain to the function
@@ -282,17 +282,19 @@ Next, we use the cd command that we practiced earlier:
     -bash-4.2$ cd
     -bash-4.2$ pwd
     /cs/student/yourusername
-    -bash-4.2$ cd cs8
+    -bash-4.2$ cd cs20
     -bash-4.2$ pwd
-    /cs/student/yourusername/cs8
+    /cs/student/yourusername/cs20
     -bash-4.2$
 
-When you are in inside your cs8 directory, you are ready for the turnin
+When you are in inside your cs20 directory, you are ready for the turnin
 step.
+
+TODO: Change turnin to submit.cs!!!!
 
 Type the following at the prompt:
 
-    turnin lab03@cs8 lab03
+    turnin lab03@cs20y lab03
 
 You should be asked if you want to turn in this program. Respond "yes",
 and then you should get a message indicating that your efforts were
