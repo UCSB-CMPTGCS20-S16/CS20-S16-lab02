@@ -64,22 +64,21 @@ some commands to create a directory (folder) for lab03.
 
 Here are some basics of Linux shell commands:
 
--   cd is the "change directory" command
--   mkdir is the "make directory" command
--   pwd is the "print working directory" command
+-   `cd` is the "change directory" command
+-   `mkdir` is the "make directory" command
+-   `pwd` is the "print working directory" command
 -   Your home directory is something like
-    <strong>/cs/student/jsmith</strong> or
-    <strong>/engr/student/mdiaz</strong>
-    </li>
+    `/cs/student/jsmith` or
+    `/engr/student/mdiaz`
+    
 -   Under that, you might have a directory cs20—that would show up as
-    <strong>/cs/student/jsmith/cs20</strong>, or
-    <strong>/engr/student/mdiaz/cs20</strong>
+    `/cs/student/jsmith/cs20`, or
+    `/engr/student/mdiaz/cs20`
 
-A new command for this lab is the `ls` command.
-
--   That's lowercase L and S as in the word LIST
--   It stands for "list files". It gives you a list of the files in the
-    current working directory.
+-   The `ls` command is used to list files
+ -   That's lowercase L and S as in the word LIST
+ -   It stands for "list files". It gives you a list of the files in the
+     current working directory.
 
 At the command prompt, type each of these commands. The part you type is
 shown after the `-bash-4.2$` prompt. (Note: Your prompt may be slightly
