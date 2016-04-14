@@ -16,12 +16,31 @@ Step by Step
 ============
 
 
+
+Step 0: Connect to CSIL (optional, but recommended)
+---------------------------------------------------
+Though it isn't required, it is encouraged that you do this lab on your CSIL account to learn a bit about working with Linux, in general, and the CSIL machines in particular.
+
+As a reminder, for working on CSIL, you need:
+
+* a CSIL/ECI account, which you set up at https://accounts.engr.ucsb.edu
+* a machine name to connect to from [this list of CSIL machines](http://www.engr.ucsb.edu/eci/kb/index.php?action=artikel&cat=14&id=68) such as `pinky.cs.ucsb.edu`, `brain.cs.ucsb.edu`, `shaggy.cs.ucsb.edu`, etc.
+
+Though the "default" machine name is `csil.cs.ucsb.edu`, it is strongly recommended to choose one of the other machines on that list, especially if you are bringing up IDLE. (It's less important if you are just doing Linux shell commands, or working at the Python `>>>` prompt.)
+
+As for how to connect:
+
+* From Windows, it is recommended that you use the free home edition of [Mobaxterm](http://mobaxterm.mobatek.net/download-home-edition.html) to create an SSH session.
+* From Mac OS, : use `ssh -X jgaucho@somemachine.cs.ucsb.edu` where `somemachine` is a machine from [the list of CSIL machines](http://www.engr.ucsb.edu/eci/kb/index.php?action=artikel&cat=14&id=68).  You may need to [download and install XQuartz](http://www.xquartz.org/) first to get the graphics to work. 
+* From Linux, it "just works": use `ssh -X jgaucho@somemachine.cs.ucsb.edu` where `somemachine` is a machine from [the list of CSIL machines](http://www.engr.ucsb.edu/eci/kb/index.php?action=artikel&cat=14&id=68)
+
+Assuming you've managed to log in and get a CSIL shell prompt (which may look something like this: `-bash-4.3$ `) you are ready to move on to the next step.
+
+
 Step 1: Bring up an IDLE session
 --------------------------------
 
 Bring up an IDLE session.
-
-Though it isn't required, it is encouraged that you do this lab on your CSIL account to learn a bit about working with Linux.
 
 If you do this on CSIL account, you may way to bring up two terminal windows where you are connecting to CSIL.
 
@@ -39,7 +58,6 @@ If you do this on CSIL account, you may way to bring up two terminal windows whe
 
 Step 2: Creating some directories
 ---------------------------------
-
 
 In the window with the bash shell prompt (`-bash-4.2$`), we will type
 some commands to create a directory (folder) for lab03.
